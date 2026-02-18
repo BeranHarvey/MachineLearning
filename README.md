@@ -31,3 +31,9 @@ In tutorials we have been looking at the Breast Cancer Wisconsin Diagnostic Data
 The dataset for this coursework is a litte bit different, but related. In this dataset all patients have cancer. Some patients go on to have a cancer recurrence, cancer returning after treatment (label 1), and some remain cancer-free after the end of treatment (label 0). For this dataset 32 features are extracted. The two new features are the size of the original tumour lesion and the number of lymph nodes involved, these are number of lymph node biopsies that contain cancer cells a well known early indication of cancer spread.
 
 Both Question 1 and 2 use this dataset.
+
+Question 4 - CNN Classification
+
+Detecting cancer from histopatological images
+
+In this question we will implement a CNN to classify histopatological images for presence of cancer. More details about the PatchCamelyon dataset can be found here https://github.com/basveeling/pcam.
