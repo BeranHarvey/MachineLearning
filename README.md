@@ -32,6 +32,12 @@ The dataset for this coursework is a litte bit different, but related. In this d
 
 Both Question 1 and 2 use this dataset.
 
+Question 3 - GMM segmentation
+
+SWI for visualisation of brain vessels
+
+Susceptibility weighted imaging (SWI) is a MRI modality that gives good contrast for visualisation of blood vessels in the brain. You are given one slice of SWI image of a newborn baby acquired at 7T scanner at St Thomas Hospital. The file is named 'brainSWI.npy'. Your task is to segmenent the vessels in this image using Gaussian Mixture Model. Note that the vessels apprear dark on SWI, and the brain has been masked and padded by zeros.
+
 Question 4 - CNN Classification
 
 Detecting cancer from histopatological images
