@@ -1,6 +1,6 @@
-Coursework 3
+# Coursework 3
 
-Submission format
+## Submission format
 
 Solve all the question directly in this notebook. Some tasks require writing and running code. Other times you are asked to write answers to questions within the 'Markdown' cells and the answers are propmted by Your answer:.
 
@@ -8,23 +8,23 @@ Submit the solved Jupyter notebooks with the code and answers to KEATS. Make sur
 
 Marks obtained in this coursework will be converted to 30% of your final grade.
 
-System requirements
+## System requirements
 
 Q1-3 can be run on your local machines on CPU. Q4 needs to be run on Google Colab, because it requires GPU. If you prefer, you can solve all questions on Colab, intructions for uploading the datasets on Colab are given.
 
-Questions
+## Questions
 
 Queries about the coursework should be sent to rachel.sparks@kcl.ac.uk and maria.deprez@kcl.ac.uk. Please note that we are not able to answer any queries about how you should answer the questions. Your queries should only be related to clarity of the instructions or practical difficulties with the submission.
 
-Guidance on use of generative AI
+## Guidance on use of generative AI
 
 We emphasise that it is important that you submit your own work. Your marks will be based on your ability to demonstrate understanding of the techniques and methods discussed in class. We can recognise AI generated text and code. If you would like to use generative AI, limit it to searching for ideas, learning about machine learning techniques and correcting grammar (though grammar has no influence on your marks). Submitting AI generated content may result in a disciplinary hearing.
 
-Guidance on written comments
+## Guidance on written comments
 
 Write your answers concisely and stay below the word limit. The word limit is generous, do not try to write more words than necessary. Do not copy text from the lectures and tutorials, you will not be given marks for that. We are interested in specific insights into your implemented solutions. Generic comments will not result in marks.
 
-Breast Cancer Wisconsin Prognostic Dataset
+## Breast Cancer Wisconsin Prognostic Dataset
 
 In tutorials we have been looking at the Breast Cancer Wisconsin Diagnostic Dataset, where the task is to distinguish benign and cancerous cells in fine needle aspiration, on method breast biopsies are performed, based on 30 features.
 
@@ -32,14 +32,14 @@ The dataset for this coursework is a litte bit different, but related. In this d
 
 Both Question 1 and 2 use this dataset.
 
-Question 3 - GMM segmentation
+## Question 3 - GMM segmentation
 
-SWI for visualisation of brain vessels
+### SWI for visualisation of brain vessels
 
 Susceptibility weighted imaging (SWI) is a MRI modality that gives good contrast for visualisation of blood vessels in the brain. You are given one slice of SWI image of a newborn baby acquired at 7T scanner at St Thomas Hospital. The file is named 'brainSWI.npy'. Your task is to segmenent the vessels in this image using Gaussian Mixture Model. Note that the vessels apprear dark on SWI, and the brain has been masked and padded by zeros.
 
-Question 4 - CNN Classification
+## Question 4 - CNN Classification
 
-Detecting cancer from histopatological images
+### Detecting cancer from histopatological images
 
 In this question we will implement a CNN to classify histopatological images for presence of cancer. More details about the PatchCamelyon dataset can be found here https://github.com/basveeling/pcam.
